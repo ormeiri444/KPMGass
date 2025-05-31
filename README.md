@@ -39,7 +39,6 @@ KPMGass/
 An intelligent system that extracts structured information from ביטוח לאומי (National Insurance Institute) forms using OCR and Azure OpenAI.
 
 ### Features
-- **Hybrid OCR Processing**: Utilizes both regular and checkbox-specific OCR modes for optimal accuracy
 - **Multi-language Support**: Handles forms filled in Hebrew or English
 - **AI-Powered Field Extraction**: Uses GPT-4o to extract and structure form data
 - **Interactive UI**: Streamlit-based interface for easy file upload and result visualization
