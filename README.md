@@ -139,32 +139,6 @@ The system extracts the following structured data:
 }
 ```
 
-### Hebrew Field Names Translation
-
-```json
-{
-  "שם משפחה": "lastName",
-  "שם פרטי": "firstName",
-  "מספר זהות": "idNumber",
-  "מין": "gender",
-  "תאריך לידה": "dateOfBirth",
-  "כתובת": "address",
-  "טלפון קווי": "landlinePhone",
-  "טלפון נייד": "mobilePhone",
-  "סוג העבודה": "jobType",
-  "תאריך הפגיעה": "dateOfInjury",
-  "שעת הפגיעה": "timeOfInjury",
-  "מקום התאונה": "accidentLocation",
-  "כתובת מקום התאונה": "accidentAddress",
-  "תיאור התאונה": "accidentDescription",
-  "האיבר שנפגע": "injuredBodyPart",
-  "חתימה": "signature",
-  "תאריך מילוי הטופס": "formFillingDate",
-  "תאריך קבלת הטופס בקופה": "formReceiptDateAtClinic",
-  "למילוי ע\"י המוסד הרפואי": "medicalInstitutionFields"
-}
-```
-
 ### Evaluation System
 
 Run comprehensive evaluation on test files:
