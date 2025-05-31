@@ -384,16 +384,14 @@ GPT-4o Field Extraction → JSON Output → Validation & Evaluation
 
 **Key Components:**
 - `doc_ai_hebrew.py`: Hebrew text OCR processing with layout analysis
-- `doc_ai_english.py`: English/checkbox OCR processing for form fields
+- `doc_ai_english.py`: English OCR processing for form fields
 - `gpt_field_extraction.py`: AI-powered field extraction using GPT-4o
 - `run.py`: Streamlit UI application with three-tab result display
 - `evaluate_pdf_processing.py`: Comprehensive evaluation with gold standard comparison
 
 **OCR Strategy:**
-1. **Primary OCR**: Regular layout analysis for general text
-2. **Fallback OCR**: Checkbox-specific analysis for form fields
-3. **Hybrid Decision**: Automatically switches based on content type (ASCII detection)
-4. **Text Cleaning**: Removes noise and formats for GPT processing
+1. **Hybrid Decision**: Automatically switches based on content type (hebrew\english) (ASCII detection)
+2. **Text Cleaning**: Removes noise and formats for GPT processing
 
 ### Phase 2 Architecture
 ```
