@@ -411,43 +411,6 @@ Frontend (Streamlit) ↔ FastAPI Backend ↔ Azure OpenAI ↔ Knowledge Base (HT
 - **Multi-language Processing**: Bilingual prompt engineering
 - **Service Detection**: Automatic identification of relevant services
 
-## 📊 Performance Metrics
-
-### Phase 1 Evaluation Results
-
-Based on testing with the provided datasets:
-
-- **Overall Accuracy**: 78.9% (compared to gold standard)
-- **Completeness Rate**: 85.2% (fields extracted vs. total fields)
-- **Success Rate**: 100% (all PDFs processed successfully)
-- **Multi-language Support**: Handles both Hebrew and English forms
-
-**Performance Breakdown:**
-- Perfect accuracy (100%): 16.7% of files
-- Excellent (90-99%): 33.3% of files
-- Good (80-89%): 33.3% of files
-- Fair (70-79%): 16.7% of files
-
-### Phase 2 Features
-
-- **Response Time**: < 3 seconds for most queries
-- **Knowledge Coverage**: 6 major service categories
-- **Language Support**: Full Hebrew and English functionality
-- **Context Accuracy**: Smart detection of user intent and service needs
-- **Scalability**: Stateless design supports horizontal scaling
-
-## 🔧 Configuration
-
-### Azure Resources Required
-
-1. **Azure OpenAI**:
-   - GPT-4o model deployment
-   - GPT-4o Mini model deployment
-   - ADA 002 embeddings (optional)
-
-2. **Azure Document Intelligence**:
-   - Document Intelligence resource
-   - Layout analysis capability
 
 ### Environment Variables
 
