@@ -1,4 +1,4 @@
-# KPMG GenAI Developer Assessment Assignment
+# KPMG GenAI Developer Assessment 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ed5b23ba-3e7e-46fd-a18c-8fcc520bee52" alt="kpmg-logo-1" width="200" />
