@@ -296,13 +296,6 @@ POST /chat
 }
 ```
 
-#### Debug Endpoints
-```http
-GET /debug/knowledge    # Check knowledge base status
-GET /debug/simple       # Simple pregnancy data test
-GET /test              # Enhanced version test
-```
-
 ### Knowledge Base Services
 
 The chatbot provides information about:
@@ -372,22 +365,4 @@ Frontend (Streamlit) ↔ FastAPI Backend ↔ Azure OpenAI ↔ Knowledge Base (HT
 - **Multi-language Processing**: Bilingual prompt engineering
 - **Service Detection**: Automatic identification of relevant services
 
-
-### Environment Variables
-
-**Phase 1 (.env in `bituah_leumi_pdf_extraction/src/`):**
-```env
-AZURE_OPENAI_API_KEY=your_openai_api_key
-AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com/
-AZURE_OPENAI_API_VERSION=2024-02-01
-AZURE_DOC_INTELLIGENCE_ENDPOINT=https://your-doc-intelligence.cognitiveservices.azure.com/
-AZURE_DOC_INTELLIGENCE_KEY=your_doc_intelligence_key
-```
-
-**Phase 2 (.env in `chatbot/`):**
-```env
-AZURE_OPENAI_API_KEY=your_openai_api_key
-AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com/
-AZURE_OPENAI_API_VERSION=2024-02-01
-```
 
