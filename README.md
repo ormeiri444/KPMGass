@@ -279,20 +279,7 @@ Once information is collected, you can ask questions about:
 - "איך השירותים של מכבי זהב בהשוואה לכללית?" (How do Maccabi Gold services compare to Clalit?)
 - "מה לגבי טיפולי שיניים?" (What about dental treatments?)
 
-### API Endpoints
-
-#### Health Check
-```http
-GET /health
-```
-**Response:**
-```json
-{
-  "status": "healthy",
-  "timestamp": "2025-05-31T10:00:00",
-  "knowledge_base_loaded": 6
-}
-```
+### API Endpoints`
 
 #### Main Chat Endpoint
 ```http
