@@ -253,48 +253,6 @@ Once information is collected, you can ask questions about:
 - "איך השירותים של מכבי זהב בהשוואה לכללית?" (How do Maccabi Gold services compare to Clalit?)
 - "מה לגבי טיפולי שיניים?" (What about dental treatments?)
 
-### API Endpoints`
-
-#### Main Chat Endpoint
-```http
-POST /chat
-```
-
-**Request Body:**
-```json
-{
-  "message": "שלום, אני רוצה לדעת מה מגיע לי",
-  "user_info": {
-    "first_name": "יוסי",
-    "last_name": "כהן",
-    "id_number": "123456789",
-    "gender": "זכר",
-    "age": 30,
-    "hmo_name": "מכבי",
-    "hmo_card_number": "987654321",
-    "insurance_tier": "זהב"
-  },
-  "conversation_history": [
-    {
-      "role": "user",
-      "content": "שלום",
-      "timestamp": "2025-05-31T10:00:00"
-    }
-  ],
-  "phase": "qa",
-  "language": "hebrew"
-}
-```
-
-**Response:**
-```json
-{
-  "response": "על פי מאגר הידע, הנה המידע עבור מכבי זהב...",
-  "updated_user_info": { /* updated user info */ },
-  "phase": "qa",
-  "is_complete": true
-}
-```
 
 ### Knowledge Base Services
 
