@@ -1,0 +1,49 @@
+{
+  "lastName": "מאירי",
+  "firstName": "אור",
+  "idNumber": "315920462",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "19",
+    "month": "09",
+    "year": "1995"
+  },
+  "address": {
+    "street": "ראובן רובין",
+    "houseNumber": "7",
+    "entrance": "",
+    "apartment": "12",
+    "city": "באר שבע",
+    "postalCode": "440563",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0528991118",
+  "jobType": "נגרות",
+  "dateOfInjury": {
+    "day": "23",
+    "month": "04",
+    "year": "2025"
+  },
+  "timeOfInjury": "16:52",
+  "accidentLocation": "ת. דרכים בדרך לעבודה/מהעבודה",
+  "accidentAddress": "המסגר 23 תל אביב",
+  "accidentDescription": "ניסיתי להרים את הפלאפון מרצפת הרכב",
+  "injuredBodyPart": "אגודל",
+  "signature": "אור מאירי",
+  "formFillingDate": {
+    "day": "05",
+    "month": "11",
+    "year": "1999"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "22",
+    "month": "02",
+    "year": "2002"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "לאומית",
+    "natureOfAccident": "סומן",
+    "medicalDiagnoses": ""
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "lastName": "mashiah",
+  "firstName": "shir",
+  "idNumber": "205762941",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "11",
+    "month": "03",
+    "year": "1995"
+  },
+  "address": {
+    "street": "hameri",
+    "houseNumber": "48",
+    "entrance": "",
+    "apartment": "3",
+    "city": "tel aviv",
+    "postalCode": "532996",
+    "poBox": ""
+  },
+  "landlinePhone": "09435862",
+  "mobilePhone": "0524568246",
+  "jobType": "zara store in hazahav mall",
+  "dateOfInjury": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "timeOfInjury": "13:11",
+  "accidentLocation": "ת. דרכים בדרך לעבודה/מהעבודה",
+  "accidentAddress": "hazav mall parking lot",
+  "accidentDescription": "il was driving in a parking lot trying to find a parking space and the car hit me from behind.",
+  "injuredBodyPart": "back and neck",
+  "signature": "shir",
+  "formFillingDate": {
+    "day": "16",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "20",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "סומן",
+    "medicalDiagnoses": ""
+  }
+}
