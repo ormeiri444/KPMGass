@@ -5,11 +5,11 @@ This repository contains the complete solution for the KPMG GenAI Developer Asse
 1. **Phase 1**: Field Extraction from ביטוח לאומי (National Insurance Institute) forms using Azure Document Intelligence and OpenAI
 2. **Phase 2**: Microservice-based chatbot for Israeli Health Fund (HMO) services
 
-## 🚀 Quick Start
+##Quick Start
 
 ### Prerequisites
 - Python 3.8+
-- Azure OpenAI credentials (provided in the assignment email)
+- Azure OpenAI credentials
 - Required Python packages (see individual phase requirements)
 
 ### Repository Structure
